@@ -2,7 +2,7 @@
     "name": "json-server-expense-tracker",
     "version": "1.0.0",
     "scripts": {
-        "start": "json-server --watch db.json --port 3000"
+        "start": "json-server --host 0.0.0.0 --port 10000 db.json"
     },
     "dependencies": {
         "json-server": "^0.17.3"
